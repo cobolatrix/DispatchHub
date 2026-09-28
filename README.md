@@ -60,4 +60,10 @@ pip install fastapi uvicorn pydantic requests
 python -m uvicorn main:app --reload
 ```
 
+## Carga de la aplicación de Outsystems
+
+Se incluye el archivo DispatchHub.oml para su exportación para el uso con la aplicación.
+
+
+
 Una vez que el servidor esté corriendo, puedes acceder a la interfaz interactiva de Swagger UI en http://127.0.0.1:8000/docs para enviar cargas de prueba (payloads) simulando un cliente externo, o enviar peticiones POST directamente a http://127.0.0.1:8000/api/dispatch.
